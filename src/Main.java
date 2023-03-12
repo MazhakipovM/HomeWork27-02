@@ -2,9 +2,14 @@ public class Main {
     public static void main(String[] args) {
 
         //zadacha 1
-        for (int i = 1 ; i <= 10; i++ ){
-            System.out.println(i);
+        int number1 = 0;
+        while ( number1 < 10){
+            number1++;
+
+            System.out.print(number1+ " ");
         }
+        System.out.println(" ");
+
 
         //zadacha 2
         for (int x = 10; x >= 1; x-- ){
